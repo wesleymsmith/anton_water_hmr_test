@@ -1,0 +1,16 @@
+Importing forcefield from /gdn/centos7/0001/x3/prefixes/viparr-ff/1.9.1-01-psc-c7__3f27273dab26/ff3/tip3p
+Importing structure from water_test.dms
+WARNING: Property 'type' of existing table 'angle_harm' not found in new table; setting to default values
+WARNING: Property 'memo' of existing table 'angle_harm' not found in new table; setting to default values
+WARNING: Property 'nbfix_identifier' of existing table 'vdw1' not found in new table; setting to default values
+WARNING: Property 'memo' of existing table 'vdw1' not found in new table; setting to default values
+WARNING: Property 'type' of existing table 'stretch_harm' not found in new table; setting to default values
+WARNING: Property 'memo' of existing table 'stretch_harm' not found in new table; setting to default values
+Traceback (most recent call last):
+  File "/gdn/centos7/0001/x3/prefixes/viparr/4.6.9-01-psc-c7__6e5e013d9968/bin/viparr", line 147, in <module>
+    main()
+  File "/gdn/centos7/0001/x3/prefixes/viparr/4.6.9-01-psc-c7__6e5e013d9968/bin/viparr", line 135, in main
+    run_viparr(args)
+  File "/gdn/centos7/0001/x3/prefixes/viparr/4.6.9-01-psc-c7__6e5e013d9968/bin/viparr", line 120, in run_viparr
+    compile_plugins, args.verbose_plugins, args.verbose_matching, args.hmr)
+RuntimeError: Could not add table 'pair_12_6_es' with explicit param table because a table with the same name already exists.
