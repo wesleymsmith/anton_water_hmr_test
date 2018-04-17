@@ -1,0 +1,13 @@
+# Log started on 04/17/2018 [mm/dd/yyyy] at 09:21:48
+# Command line arguments: step1_charmm2amber.nochamber.parm7
+# Loaded topologies: step1_charmm2amber.nochamber.parm7
+help HMassRepartition
+HMassRepartition 3.00 dowater
+parmwrite step1_charmm2amber.nochamber.hmr_water.parm7
+go
+# Log started on 04/17/2018 [mm/dd/yyyy] at 09:22:25
+# Command line arguments: step1_charmm2amber.nochamber.parm7
+# Loaded topologies: step1_charmm2amber.nochamber.parm7
+HMassRepartition 3.00 dowater
+parmout step1_charmm2amber.nochamber.hmr_water.parm7
+go

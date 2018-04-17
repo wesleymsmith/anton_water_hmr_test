@@ -1,0 +1,8 @@
+# 04/17/18 09:20:53
+# step1_charmm2amber.parm7
+# Loaded topologies:
+#   step1_charmm2amber.parm7
+help
+parmwrite out step1_charmm2amber.nochamber.parm7 nochamber
+go
+quit
